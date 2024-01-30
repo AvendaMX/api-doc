@@ -4,7 +4,7 @@ Issuers
 Endpoints:
 
 - [Get issuers](#get-issuers)
-- [Get issuer](#get-issuers)
+- [Get issuer](#get-issuer)
 
 Get Issuers
 ------------
