@@ -13,7 +13,7 @@ Get CFDI Uses
 
 * `GET /cfdi_uses.json` regresará una lista con todos los usos de CFDI disponibles.
 
-Esta lista no está relacionada directamente con un emisor ni con una cuenta en particular. A continuacón la respuesta en formato JSON, la lista tiene todos los usos del CFDI actuales, aunque aquí sólo se muestren dos a manera de ejemplo.
+Esta lista no está relacionada directamente con un emisor ni con una cuenta en particular. A continuación la respuesta en formato JSON, la lista tiene todos los usos del CFDI actuales, aunque aquí sólo se muestren dos a manera de ejemplo.
 
 ###### Respuesta JSON de ejemplo
 ```json
