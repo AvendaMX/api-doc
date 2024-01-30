@@ -6,7 +6,7 @@ Endpoints:
 - [Get Customers](#get-customers)
 - [Get Customer](#get-customer)
 - [Create Customer](#create-customer)
-- [Update Customer](#update-issuers)
+- [Update Customer](#update-customer)
 
 Get Customers
 ------------
