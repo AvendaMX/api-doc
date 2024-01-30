@@ -5,6 +5,8 @@ Endpoints:
 
 - [Get Products](#get-products)
 - [Get Product](#get-product)
+- [Create Product](#create-product)
+- [Update Product](#update-product)
 
 Get Products
 ------------
