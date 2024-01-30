@@ -11,6 +11,7 @@ Get Issuers
 
 * `GET /a/123/issuers.json` regresará una lista de todas los emisores disponibles para la cuenta ID `123`.
 
+###### Respuesta JSON de ejemplo
 ```json
 [
     {
@@ -53,6 +54,7 @@ Get Issuer
 
 * `GET /a/123/issuers/84.json` regresará el emisor con ID `84`.
 
+###### Respuesta JSON de ejemplo
 ```json
 {
     "id": 84,
