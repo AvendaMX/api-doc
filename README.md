@@ -18,11 +18,11 @@ Para timbrar con un emisor, es necesario que este último esté completamente co
 Autorización
 -------------
 
-La autorización se hace con una petición `POST` a `https://uno.avenda.mx/usuario/ingresar.json`, con un objeto `user` conteniendo los parámetros `email` y `password`.
+La autorización se realiza mediante una petición `POST` a `https://uno.avenda.mx/usuario/ingresar.json`, agregando un objeto JSON `user` conteniendo los parámetros `email` y `password`.
 
-Este usuario y contraseña son los mismos con los que se hace login desde la interfaz web.
+Este usuario y contraseña son con los que se hace login desde la interfaz web.
 
-###### Petción JSON de ejemplo
+###### Petición JSON de ejemplo
 ```json
 {
     "user": {
@@ -34,10 +34,11 @@ Este usuario y contraseña son los mismos con los que se hace login desde la int
 
 La respuesta regresará un JWT (JSON web token) en el header `Authorization` que se deberá a su vez adjuntar al mismo header `Authorization` en las llamadas posteriores a la API.
 
+###### Petición JSON de ejemplo
 ``` shell
 curl -H "Authorization: Bearer $JWT_TOKEN" \
   -H 'Content-Type: application/json' \
-  https://uno.avenda.mx/a.json
+  https://uno.avenda.mx/api/v1/a.json
 ```
 
 
