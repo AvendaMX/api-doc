@@ -8,7 +8,7 @@ Peticiones
 
 Las peticiones tienen el prefijo **`https://uno.avenda.mx/api/v1`**.
 
-Cada petición debe contener el header `Content-Type: application/json`.
+Cada petición debe contener el header `Content-Type: application/json` y todas las peticiones deben terminar con `.json`.
 
 
 
