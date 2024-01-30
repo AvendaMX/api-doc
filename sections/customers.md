@@ -128,7 +128,7 @@ Update Customer
 * `social_reason` - Razón social como dada de alta ante el SAT (sin `SA de CV` o similar).
 * `fiscal_regime_id` - `ID` del catálogo de [régimenes fiscales](https://github.com/avendaMX/api-doc/blob/master/sections/fiscal_regimes.md#fiscal_regimes).
 * `addresses` - Arreglo de objetos, conteniendo el parámetro `postal_code` con el código postal fiscal registrado ante el SAT. 
-*     Para la actualización es necesario enviar el ID del objeto `address`.
+    * Para la actualización es necesario enviar el ID del objeto `address`.
 
 _Valores opcionales_:
 
