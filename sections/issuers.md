@@ -54,20 +54,20 @@ Get Issuer
 * `GET /a/123/issuers/84.json` regresará el emisor con ID `84`.
 
 ```json
-    {
-        "id": 84,
-        "name": "Xochilt Casas",
-        "rfc": "CACX7605101P8",
-        "social_reason": "XOCHILT CASAS CHAVEZ",
-        "fiscal_regime": {
-            "id": 626,
-            "description": "Régimen Simplificado de Confianza"
-        },
-        "address": {
-            "id": 56,
-            "postal_code": "10740"
-        },
-        "updated_at": "2023-06-29T18:04:25.376-06:00",
-        "url": "/api/v1/a/123/issuers/84.json"
+{
+    "id": 84,
+    "name": "Xochilt Casas",
+    "rfc": "CACX7605101P8",
+    "social_reason": "XOCHILT CASAS CHAVEZ",
+    "fiscal_regime": {
+        "id": 626,
+        "description": "Régimen Simplificado de Confianza"
     },
+    "address": {
+        "id": 56,
+        "postal_code": "10740"
+    },
+    "updated_at": "2023-06-29T18:04:25.376-06:00",
+    "url": "/api/v1/a/123/issuers/84.json"
+}
 ```
