@@ -8,8 +8,8 @@ Endpoints:
 - [Get Payment Method](#get-payment-method)
 
 
-Get Payment Method
-------------------
+Get Payment Methods
+-------------------
 
 * `GET /payment_methods.json` regresará una lista con todos los métodos de pago.
 

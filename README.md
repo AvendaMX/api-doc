@@ -4,12 +4,41 @@ Avenda API
 Bienvenido a la API de Avenda.mx.
 
 Peticiones
-----------------
+----------
 
 Las peticiones tienen el prefijo **`https://uno.avenda.mx/api/v1`**.
 
-Cada petición debe contener el header `Content-Type: application/json` y todas las peticiones deben terminar con `.json`.
+Cada petición debe contener el header `Content-Type: application/json` y todas las peticiones son en formato JSON y el endpoint debe terminar en `.json`.
 
+Timbrando
+---------
+
+Para timbrar con un emisor, es necesario que este último esté completamente configurado a través de la interfaz web (con los archivos CSD y la información fiscal necesaria).
+
+Autorización
+-------------
+
+La autorización se hace con una petición `POST` a `https://uno.avenda.mx/usuario/ingresar.json`, con un objeto `user` conteniendo los parámetros `email` y `password`.
+
+Este usuario y contraseña son los mismos con los que se hace login desde la interfaz web.
+
+###### Petción JSON de ejemplo
+```json
+{
+    "user": {
+        "email": "test@example.com",
+        "password": "lacontraseñadelacuenta"
+    }
+}
+```
+
+La respuesta regresará un JWT (JSON web token) en el header `Authorization` que se deberá a su vez adjuntar al mismo header `Authorization` en las llamadas posteriores a la API.
+
+``` shell
+curl -H "Authorization: Bearer $JWT_TOKEN" \
+  -H 'Content-Type: application/json' \
+  https://uno.avenda.mx/a.json
+```
 
 
 Endpoints
