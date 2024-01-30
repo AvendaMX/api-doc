@@ -3,12 +3,12 @@ Customers
 
 Endpoints:
 
-- [Get Customers](#get-issuers)
-- [Get Customer](#get-issuers)
-- [Create Customer](#get-issuers)
-- [Update Customer]
+- [Get Customers](#get-customers)
+- [Get Customer](#get-customer)
+- [Create Customer](#create-customer)
+- [Update Customer](#update-issuers)
 
-Get Issuers
+Get Customers
 ------------
 
 * `GET /a/123/issuers/84/customers.json` regresará una lista de todos los clientes disponibles para el emisor ID `84` de la cuenta ID `123`.
@@ -55,7 +55,7 @@ Get Issuers
 ```
 
 Get Customer
------------
+------------
 
 * `GET /a/123/issuers/84/customers/248.json` regresará el cliente con ID `248` del emisor `84` de la cuenta ID `123`.
 
@@ -79,3 +79,37 @@ Get Customer
     "url": "/api/v1/a/123/issuers/84/customers/248.json"
 }
 ```
+
+Create Customer
+---------------
+
+* `POST /a/123/issuers/84/customers.json` creará un cliente para el emisor `84` de la cuenta ID `123`.
+
+
+**Valores requeridos**:
+
+* `name` - Un nombre para este cliente.
+* `social_reason` - Razón social como dada de alta ante el SAT (sin `SA de CV` o similar).
+* `fiscal_regime_id` - `ID` del catálogo de [régimenes fiscales](https://github.com/avendaMX/api-doc/blob/master/sections/fiscal_regimes.md#fiscal_regimes).
+* `addresses` - Arreglo de objetos, conteniendo el parámetro `postal_code` con el código postal fiscal registrado ante el SAT.
+
+_Valores opcionales_:
+
+Este endpoint no tiene valores opcionales.
+
+El estatus regresado será un `201 - Created` y el objeto Customer en formato `JSON`.
+
+```json
+{
+    "name": "Innovación Valor y Desarrollo",
+    "rfc": "IVD920810GU2",
+    "social_reason": "INNOVACION VALOR Y DESARROLLO",
+    "fiscal_regime_id": "601",
+    "addresses": [
+        {
+            "postal_code": "30185"
+        }
+    ]
+}
+```
+
