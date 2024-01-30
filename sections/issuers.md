@@ -33,7 +33,7 @@ Get Issuers
         "id": 115,
         "name": "Ximbo",
         "rfc": "IXS7607092R5",
-        "social_reason": "INTERNACIONAL XIMBO Y SABORES SA DE CV",
+        "social_reason": "INTERNACIONAL XIMBO Y SABORES",
         "fiscal_regime": {
             "id": 601,
             "description": "General de Ley Personas Morales"
