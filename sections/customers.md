@@ -13,7 +13,7 @@ Get Customers
 
 * `GET /a/123/issuers/84/customers.json` regresará una lista de todos los clientes disponibles para el emisor ID `84` de la cuenta ID `123`.
 
-###### Petición JSON de ejemplo
+###### Rspuesta JSON de ejemplo
 ```json
 [
     {
