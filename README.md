@@ -15,7 +15,7 @@ Cada petición debe contener el header `Content-Type: application/json` y todas 
 Endpoints
 ----------------
 - [Accounts](https://github.com/avendaMX/api-doc/blob/master/sections/accounts.md#accounts)
-- [Issuers](https://github.com/avendaMX/apic-doc/blob/master/sections/issuers.md#issuers)
-- [Customers](https://github.com/avendaMX/apic-doc/blob/master/sections/customers.md#customers)
-- [Products](https://github.com/avendaMX/apic-doc/blob/master/sections/products.md#products)
-- [Tax Groups](https://github.com/avendaMX/apic-doc/blob/master/sections/tax_groups.md#tax_groups)
+- [Issuers](https://github.com/avendaMX/api-doc/blob/master/sections/issuers.md#issuers)
+- [Customers](https://github.com/avendaMX/api-doc/blob/master/sections/customers.md#customers)
+- [Products](https://github.com/avendaMX/api-doc/blob/master/sections/products.md#products)
+- [Tax Groups](https://github.com/avendaMX/api-doc/blob/master/sections/tax_groups.md#tax_groups)

@@ -43,7 +43,7 @@ Get Issuers
             "postal_code": "86925"
         },
         "updated_at": "2023-09-20T19:38:45.031-06:00",
-        "url": "/api/v1/a/14/issuers/115.json"
+        "url": "/api/v1/a/123/issuers/115.json"
     }
 ]
 ```
@@ -68,6 +68,6 @@ Get Issuer
             "postal_code": "10740"
         },
         "updated_at": "2023-06-29T18:04:25.376-06:00",
-        "url": "/api/v1/a/14/issuers/84.json"
+        "url": "/api/v1/a/123/issuers/84.json"
     },
 ```
