@@ -32,7 +32,7 @@ Este usuario y contraseña son con los que se hace login desde la interfaz web.
 }
 ```
 
-La respuesta regresará un JWT (JSON web token) en el header `Authorization` que se deberá a su vez adjuntar al mismo header `Authorization` en las llamadas posteriores a la API.
+La respuesta regresará un JWT (JSON web token) en el header `Authorization` que se deberá a su vez adjuntar al mismo header `Authorization` que deberá contener `Bearer $JWT_TOKEN` en las llamadas posteriores a la API.
 
 ###### Petición JSON de ejemplo
 ``` shell
