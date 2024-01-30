@@ -31,7 +31,6 @@ Los impuestos grupales se usan para asignarle un impuesto al concepto de una fac
         "id": 9,
         "description": "IVA 16%  ISR 1.25% IVA RET 10.667%"
     }
-    [...]
 ]
 ```
 

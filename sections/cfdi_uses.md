@@ -34,7 +34,6 @@ Esta lista no está relacionada directamente con un emisor ni con una cuenta en 
         "applies_persona_fisica": true,
         "applies_persona_moral": true
     }
-    [...]
 ]
 ```
 

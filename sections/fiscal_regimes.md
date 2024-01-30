@@ -33,8 +33,8 @@ Esta lista no está relacionada directamente con un emisor ni con una cuenta en 
     {
         "id": 606,
         "description": "Arrendamiento"
-    },
-    [...]
+    }
+]
 ```
 
 Get Fiscal Regime
