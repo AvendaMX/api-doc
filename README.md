@@ -22,6 +22,14 @@ La autorización se realiza mediante una petición `POST` a `https://uno.avenda.
 
 Este usuario y contraseña son con los que se hace login desde la interfaz web.
 
+
+Paginación
+----------
+
+La mayoría de los catálogos regresará sólo un subconjunto de los resultados disponibles, para acceder a la paginación, agrega un query param `page` con el valor numérico de la página a consultar. Por ejemplo `https://uno.avenda.mx/api/v1/product-catalogues.json?page=2`.
+
+Todas las listas paginadas regresan 20 ítems por página. Y el número total de registros viene en el header `X-Total-Count`.
+
 ###### Petición JSON de ejemplo
 ```json
 {

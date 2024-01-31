@@ -11,7 +11,7 @@ Endpoints:
 Get CFDI Uses
 -------------
 
-* `GET /cfdi_uses.json` regresará una lista con todos los usos de CFDI disponibles.
+* `GET /cfdi_uses.json` regresará una lista [paginada](https://github.com/avendaMX/api-doc/blob/master/README.md#paginacion) con todos los usos de CFDI disponibles.
 
 Esta lista no está relacionada directamente con un emisor ni con una cuenta en particular. A continuación la respuesta en formato JSON, la lista tiene todos los usos del CFDI actuales, aunque aquí sólo se muestren dos a manera de ejemplo.
 

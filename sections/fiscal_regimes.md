@@ -11,7 +11,7 @@ Endpoints:
 Get Fiscal Regimes
 ------------------
 
-* `GET /fiscal_regimes.json` regresará una lista con todos los regímenes fiscales.
+* `GET /fiscal_regimes.json` regresará una lista [paginada](https://github.com/avendaMX/api-doc/blob/master/README.md#paginacion) con todos los regímenes fiscales.
 
 Esta lista no está relacionada directamente con un emisor ni con una cuenta en partiicular. A continuación la respuesta en formato JSON, la lista tiene todos los regímenes fiscales actuales, aunque aquí sólo se muestren cuatro a manera de ejemplo.
 

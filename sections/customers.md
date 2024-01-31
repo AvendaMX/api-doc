@@ -11,7 +11,7 @@ Endpoints:
 Get Customers
 ------------
 
-* `GET /a/123/issuers/84/customers.json` regresará una lista de todos los clientes disponibles para el emisor ID `84` de la cuenta ID `123`.
+* `GET /a/123/issuers/84/customers.json` regresará una lista [paginada](https://github.com/avendaMX/api-doc/blob/master/README.md#paginacion) de todos los clientes disponibles para el emisor ID `84` de la cuenta ID `123`.
 
 ###### Rspuesta JSON de ejemplo
 ```json
@@ -92,7 +92,7 @@ Create Customer
 
 * `name` - Un nombre para este cliente.
 * `social_reason` - Razón social como dada de alta ante el SAT (sin `SA de CV` o similar).
-* `fiscal_regime_id` - `ID` del catálogo de [régimenes fiscales](https://github.com/avendaMX/api-doc/blob/master/sections/fiscal_regimes.md#fiscal_regimes).
+* `fiscal_regime_id` - `ID` del catálogo de [regímenes fiscales](https://github.com/avendaMX/api-doc/blob/master/sections/fiscal_regimes.md#fiscal_regimes).
 * `addresses` - Arreglo de objetos, conteniendo el parámetro `postal_code` con el código postal fiscal registrado ante el SAT.
 
 _Valores opcionales_:
@@ -126,7 +126,7 @@ Update Customer
 
 * `name` - Un nombre para este cliente.
 * `social_reason` - Razón social como dada de alta ante el SAT (sin `SA de CV` o similar).
-* `fiscal_regime_id` - `ID` del catálogo de [régimenes fiscales](https://github.com/avendaMX/api-doc/blob/master/sections/fiscal_regimes.md#fiscal_regimes).
+* `fiscal_regime_id` - `ID` del catálogo de [regímenes fiscales](https://github.com/avendaMX/api-doc/blob/master/sections/fiscal_regimes.md#fiscal_regimes).
 * `addresses` - Arreglo de objetos, conteniendo el parámetro `postal_code` con el código postal fiscal registrado ante el SAT. 
     * Para la actualización es necesario enviar el ID del objeto `address`.
 

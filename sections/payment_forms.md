@@ -11,7 +11,7 @@ Endpoints:
 Get Payment Forms
 ------------------
 
-* `GET /payment_forms.json` regresará una lista con todos las formas de pago.
+* `GET /payment_forms.json` regresará una lista [paginada](https://github.com/avendaMX/api-doc/blob/master/README.md#paginacion) con todos las formas de pago.
 
 Esta lista no está relacionada directamente con un emisor ni con una cuenta en particular. A continuación la respuesta en formato JSON, la lista tiene todos las formas de pago actuales, aunque aquí sólo se muestren cuatro a manera de ejemplo.
 

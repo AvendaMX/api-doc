@@ -9,7 +9,7 @@ Endpoints:
 Get accounts
 ------------
 
-* `GET /a.json` regresará una lista de todas las cuentas disponibles al usuario:
+* `GET /a.json` regresará una lista [paginada](https://github.com/avendaMX/api-doc/blob/master/README.md#paginacion) de las cuentas disponibles al usuario.
 
 ###### Respuesta JSON de ejemplo
 ```json
