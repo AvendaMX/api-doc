@@ -15,20 +15,19 @@ Timbrando
 
 Para timbrar con un emisor, es necesario que este último esté completamente configurado a través de la interfaz web (con los archivos CSD y la información fiscal necesaria).
 
-Autorización
--------------
-
-La autorización se realiza mediante una petición `POST` a `https://uno.avenda.mx/usuario/ingresar.json`, agregando un objeto JSON `user` conteniendo los parámetros `email` y `password`.
-
-Este usuario y contraseña son con los que se hace login desde la interfaz web.
-
-
 Paginación
 ----------
 
 La mayoría de los catálogos regresará sólo un subconjunto de los resultados disponibles, para acceder a la paginación, agrega un query param `page` con el valor numérico de la página a consultar. Por ejemplo `https://uno.avenda.mx/api/v1/product-catalogues.json?page=2`.
 
 Todas las listas paginadas regresan 20 ítems por página. Y el número total de registros viene en el header `X-Total-Count`.
+
+Autorización
+-------------
+
+La autorización se realiza mediante una petición `POST` a `https://uno.avenda.mx/usuario/ingresar.json`, agregando un objeto JSON `user` conteniendo los parámetros `email` y `password`.
+
+Este usuario y contraseña son con los que se hace login desde la interfaz web.
 
 ###### Petición JSON de ejemplo
 ```json
