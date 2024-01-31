@@ -11,7 +11,7 @@ Endpoints:
 Get Tax Groups
 --------------
 
-* `GET /a/123/issuers/84/tax_groups.json` regresará una lista [paginada](https://github.com/avendaMX/api-doc/blob/master/README.md#paginacion) con todos los impuestos grupales para el emisor con ID `84` de la cuenta con ID `123`.
+* `GET /a/123/issuers/84/tax_groups.json` regresará una lista [paginada](https://github.com/avendaMX/api-doc/blob/master/README.md#paginación) con todos los impuestos grupales para el emisor con ID `84` de la cuenta con ID `123`.
 
 Los impuestos grupales se usan para asignarle un impuesto al concepto de una factura. Están compuestos de impuestos individuales y se tendrán tantos como sean configuradoes desde la interfaz web, aquí se muestran tres a manera de ejemplo.
 

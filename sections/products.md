@@ -11,7 +11,7 @@ Endpoints:
 Get Products
 ------------
 
-* `GET /a/123/issuers/84/products.json` regresará una lista [paginada](https://github.com/avendaMX/api-doc/blob/master/README.md#paginacion) de los productos disponibles para el emisor ID `84` de la cuenta ID `123`.
+* `GET /a/123/issuers/84/products.json` regresará una lista [paginada](https://github.com/avendaMX/api-doc/blob/master/README.md#paginación) de los productos disponibles para el emisor ID `84` de la cuenta ID `123`.
 
 ###### Respuesta JSON de ejemplo
 ```json

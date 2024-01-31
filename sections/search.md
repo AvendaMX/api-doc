@@ -11,7 +11,7 @@ Endpoints:
 Get Products
 ------------
 
-* `GET /a/123/issuers/84/search/products.json?q=SKU123456701` regresará una lista [paginada](https://github.com/avendaMX/api-doc/blob/master/README.md#paginacion) de los productos encontrados para el query param `q` para el emisor ID `84` de la cuenta ID `123`.
+* `GET /a/123/issuers/84/search/products.json?q=SKU123456701` regresará una lista [paginada](https://github.com/avendaMX/api-doc/blob/master/README.md#paginación) de los productos encontrados para el query param `q` para el emisor ID `84` de la cuenta ID `123`.
 
 Se puede hacer la búsqueda por nombre del producto, y SKU.
 

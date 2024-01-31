@@ -9,7 +9,7 @@ Endpoints:
 Get Issuers
 ------------
 
-* `GET /a/123/issuers.json` regresará una lista [paginada](https://github.com/avendaMX/api-doc/blob/master/README.md#paginacion) de todas los emisores disponibles para la cuenta ID `123`.
+* `GET /a/123/issuers.json` regresará una lista [paginada](https://github.com/avendaMX/api-doc/blob/master/README.md#paginación) de todas los emisores disponibles para la cuenta ID `123`.
 
 ###### Respuesta JSON de ejemplo
 ```json

@@ -11,7 +11,7 @@ Endpoints:
 Get Customers
 ------------
 
-* `GET /a/123/issuers/84/customers.json` regresará una lista [paginada](https://github.com/avendaMX/api-doc/blob/master/README.md#paginacion) de todos los clientes disponibles para el emisor ID `84` de la cuenta ID `123`.
+* `GET /a/123/issuers/84/customers.json` regresará una lista [paginada](https://github.com/avendaMX/api-doc/blob/master/README.md#paginación) de todos los clientes disponibles para el emisor ID `84` de la cuenta ID `123`.
 
 ###### Rspuesta JSON de ejemplo
 ```json

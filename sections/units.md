@@ -11,7 +11,7 @@ Endpoints:
 Get Units
 ---------
 
-* `GET /units.json` regresará una lista [paginada](https://github.com/avendaMX/api-doc/blob/master/README.md#paginacion) de unidades de medida del SAT.
+* `GET /units.json` regresará una lista [paginada](https://github.com/avendaMX/api-doc/blob/master/README.md#paginación) de unidades de medida del SAT.
 
 Esta lista no está relacionada directamente con un emisor ni con una cuenta en particular. A continuación la respuesta en formato JSON, la lista tiene todas las unidades de medida del SAT actuales, aunque aquí sólo se muestren cuatro a manera de ejemplo.
 

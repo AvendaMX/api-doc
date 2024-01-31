@@ -11,7 +11,7 @@ Endpoints:
 Get Product Catalogues
 ----------------------
 
-* `GET /product_catalogues.json` regresará una lista [paginada](https://github.com/avendaMX/api-doc/blob/master/README.md#paginacion) del catálogo de productos y servicios del SAT.
+* `GET /product_catalogues.json` regresará una lista [paginada](https://github.com/avendaMX/api-doc/blob/master/README.md#paginación) del catálogo de productos y servicios del SAT.
 
 Esta lista no está relacionada directamente con un emisor ni con una cuenta en particular. A continuación la respuesta en formato JSON, la lista tiene todos los productos y servicios del SAT actuales, aunque aquí sólo se muestren cuatro a manera de ejemplo.
 
