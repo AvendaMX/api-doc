@@ -14,7 +14,7 @@ Get Request Types
 
 Esta lista no está relacionada directamente con un emisor ni con una cuenta en particular. 
 
-Estos valores son usados al momento de la creación o edición de facturas, tiene que ver con el tipo de petición para la factura. En este caso `stamp` intentará timbrar la factura, mientras que `draft` sólo la guardará como borrador.
+Estos valores son usados al momento de la creación o edición de facturas, tiene que ver con el tipo de petición para la factura. `stamp` intentará timbrar la factura inmediatamente, mientras que `draft` sólo la creará como borrador.
 
 ###### Respuesta JSON de ejemplo
 ```json

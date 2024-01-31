@@ -211,7 +211,7 @@ Get Invoice
 ```
 
 Create Invoice
----------------
+--------------
 
 * `POST /a/123/issuers/84/invoices.json` creará una factura para el emisor ID `84` de la cuenta ID `123`.
 
@@ -223,14 +223,15 @@ Create Invoice
 * `payment_form_id` - `ID` del catálogo de [formas de pago](https://github.com/avendaMX/api-doc/blob/master/sections/payment_forms.md#payment_forms).
 * `payment_method_id` - `ID` del catálogo de [métodos de pago](https://github.com/avendaMX/api-doc/blob/master/sections/payment_methods.md#payment_methods).
 * `request_type` - Valor en cadena de texto del catálogo de [tipos de petición](https://github.com/avendaMX/api-doc/blob/master/sections/request_types.md#request_types).
-* `line_items` - Arreglo de conceptos.
+* `line_items` - Arreglo de [conceptos](#conceptos).
 
 _Valores opcionales_:
 
 * `notes` - Notas adicionales a agregar a la factura, aparecerán en la representación en PDF.
 * `stamping_date` - Valor en cadena de texto del catálogo de [fechas de timbrado](https://github.com/avendaMX/api-doc/blob/master/sections/stamping_dates.md#stamping_dates). El valor por defecto es `current`.
 
-*Conceptos*
+Conceptos
+---------
 
 **Valores requeridos**:
 
@@ -249,6 +250,49 @@ _Valores opcionales_:
 No es necesario enviar totales ni subtotales, la API se encargará de realizar el cálculo de estos valores.
 
 El estatus regresado será un `201 - Created` y el objeto Customer en formato `JSON`.
+
+###### Petición JSON de ejemplo
+```json
+{
+    "customer_id": 8,
+    "stamping_date": "current",
+    "cfdi_use_id": 1,
+    "payment_form_id": 1,
+    "payment_method_id": 1,
+    "notes": "Factura a pagar en 30 días",
+    "request_type": "stamp",
+    "line_items": [
+        {
+            "product_id": 33,
+            "description": "",
+            "quantity": 2,
+            "unitary": 1000,
+            "discount": 200,
+            "tax_group_id": 9
+        }
+    ]
+}
+```
+
+Update Invoice
+--------------
+
+* `PUT /a/123/issuers/84/invoices/942.json` actualizará factura ID `942` para el emisor ID `84` de la cuenta ID `123`.
+
+**Valores requeridos**:
+
+* `request_type` - `ID` del catálogo de [productos](https://github.com/avendaMX/api-doc/blob/master/sections/products.md#products).
+
+
+_Valores opcionales_:
+
+* `customer_id` - `ID` del catálogo de [clientes](https://github.com/avendaMX/api-doc/blob/master/sections/customers.md#customers).
+* `cfdi_use_id` - `ID` del catálogo de [usos de CFDI](https://github.com/avendaMX/api-doc/blob/master/sections/cfdi_uses.md#cfdi_uses).
+* `payment_form_id` - `ID` del catálogo de [formas de pago](https://github.com/avendaMX/api-doc/blob/master/sections/payment_forms.md#payment_forms).
+* `payment_method_id` - `ID` del catálogo de [métodos de pago](https://github.com/avendaMX/api-doc/blob/master/sections/payment_methods.md#payment_methods).
+* `line_items` - Arreglo de [conceptos](#conceptos).
+
+Se pueden actualizar todos los valores de la factura de manera opcional, el único valor requerido es `request_type`.
 
 ###### Petición JSON de ejemplo
 ```json
