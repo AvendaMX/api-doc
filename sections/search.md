@@ -3,9 +3,9 @@ Search
 
 Endpoints:
 
-- [Get Customers](#get-products)
-- [Get Product](#get-product)
-- [Get Product Catalogues](#create-product)
+- [Get Customers](#get-customers)
+- [Get Product](#get-products)
+- [Get Product Catalogues](#get-product-catalogues)
 
 
 Get Customers
