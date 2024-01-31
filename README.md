@@ -20,7 +20,7 @@ Paginación
 
 La mayoría de los catálogos regresará sólo un subconjunto de los resultados disponibles, para acceder a la paginación, agrega un query param `page` con el valor numérico de la página a consultar. Por ejemplo `https://uno.avenda.mx/api/v1/product-catalogues.json?page=2`.
 
-Todas las listas paginadas regresan 20 ítems por página. Y el número total de registros viene en el header `X-Total-Count`.
+Todas las listas paginadas regresan 20 ítems por página. Y el número total de registros se especifica en el header `X-Total-Count`.
 
 Autorización
 -------------
