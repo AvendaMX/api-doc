@@ -77,7 +77,7 @@ Get Invoices
         "stamping_date": "current",
         "updated_at": "2024-01-30T20:31:47.451-06:00",
         "stamped_at": "2024-01-29T08:39:58.000-06:00",
-        "url": "/api/v1/a/14/issuers/2/vouchers/invoices/942.json"
+        "url": "/api/v1/a/123/issuers/84/vouchers/invoices/942.json"
     },
     {
         "id": 943,
@@ -133,7 +133,7 @@ Get Invoices
         "total": 1873.49,
         "stamping_date": "current",
         "updated_at": "2024-01-29T23:09:07.125-06:00",
-        "url": "/api/v1/a/14/issuers/2/vouchers/invoices/943.json"
+        "url": "/api/v1/a/123/issuers/84/vouchers/invoices/943.json"
     }
 ]
 ```
@@ -206,7 +206,7 @@ Get Invoice
     "stamping_date": "current",
     "updated_at": "2024-01-30T20:31:47.451-06:00",
     "stamped_at": "2024-01-29T08:39:58.000-06:00",
-    "url": "/api/v1/a/14/issuers/2/vouchers/invoices/942.json"
+    "url": "/api/v1/a/123/issuers/84/vouchers/invoices/942.json"
 }
 ```
 
